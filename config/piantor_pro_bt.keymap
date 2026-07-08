@@ -27,14 +27,14 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &kp LCTRL  &mt LEFT_SHIFT A  &mt LCTRL S  &mt LEFT_ALT D  &mt LCMD F  &lt 1 G  &kp H  &mt LEFT_META J  &mt RIGHT_ALT K  &mt RCTRL L  &mt RIGHT_SHIFT SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER  &mo 3  &kp LEFT_SHIFT  &lt 1 ESCAPE  &kp BACKSPACE  &kp SPACE  &mo 2
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSPC  &mt LCTRL ESCAPE  &mt LEFT_SHIFT A  &mt LCTRL S  &mt LEFT_ALT D  &mt LCMD F  &lt 1 G  &kp H  &mt LEFT_META J  &mt RIGHT_ALT K  &mt RCTRL L  &mt RIGHT_SHIFT SEMICOLON  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER  &mo 3  &kp LEFT_SHIFT  &lt 1 ESCAPE  &kp BACKSPACE  &kp SPACE  &mo 2
             >;
         };
 
         my_nav_layer {
             display-name = "EXTRA 3";
             bindings = <
-&kp C_PAUSE  &kp K_PREV  &kp K_NEXT  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &kp LS(LG(LEFT_BRACKET))  &kp LS(TAB)  &kp TAB  &kp LG(LS(RIGHT_BRACKET))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_PAUSE  &kp K_PREV  &kp K_NEXT  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &studio_unlock  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &kp LS(LG(LEFT_BRACKET))  &kp LS(TAB)  &kp TAB  &kp LG(LS(RIGHT_BRACKET))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
