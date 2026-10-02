@@ -48,7 +48,7 @@
         my_symbol_layer {
             display-name = "EXTRA 2";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp LPAR  &kp RPAR  &kp MINUS  &kp PLUS  &kp ASTERISK  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UNDERSCORE  &kp EQUAL  &kp GRAVE  &kp PIPE  &trans  &trans  &kp TILDE  &kp PIPE  &trans  &kp LESS_THAN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GREATER_THAN  &trans  &trans  &kp SLASH  &trans  &trans  &trans  &trans  &kp DELETE  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LPAR  &kp RPAR  &kp MINUS  &kp ASTERISK  &kp PLUS  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UNDERSCORE  &kp EQUAL  &kp GRAVE  &kp PIPE  &trans  &trans  &kp TILDE  &kp PIPE  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &trans  &trans  &trans  &trans  &kp DELETE  &trans  &trans
             >;
         };
 
