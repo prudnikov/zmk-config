@@ -34,7 +34,7 @@
         my_nav_layer {
             display-name = "EXTRA 3";
             bindings = <
-&kp C_PAUSE  &kp K_PREV  &kp K_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(LG(NUMBER_4)))  &kp LG(LS(NUMBER_4))  &trans  &kp LS(LG(LEFT_BRACKET))  &kp LS(TAB)  &kp TAB  &kp LG(LS(RIGHT_BRACKET))  &kp BACKSLASH  &trans  &trans  &trans  &to 0  &trans  &trans  &trans
+&trans  &kp K_PREV  &kp K_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans  &trans  &kp C_PAUSE  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(LG(NUMBER_4)))  &kp LG(LS(NUMBER_4))  &trans  &kp LS(LG(LEFT_BRACKET))  &kp LS(TAB)  &kp TAB  &kp LG(LS(RIGHT_BRACKET))  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &to 0
             >;
         };
 
