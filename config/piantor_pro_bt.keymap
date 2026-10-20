@@ -14,6 +14,22 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        NavLayer {
+            bindings = <&to 1>;
+            key-positions = <19 19 21>;
+            layers = <0>;
+        };
+
+        BackToMainLayer {
+            bindings = <&to 0>;
+            key-positions = <19 21>;
+            layers = <1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -32,28 +48,28 @@
         };
 
         my_nav_layer {
-            display-name = "EXTRA 3";
+            display-name = "Nav";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &kp PG_UP  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &kp PG_DN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(LEFT_BRACKET))  &kp LS(TAB)  &kp TAB  &kp LG(LS(RIGHT_BRACKET))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0
             >;
         };
 
         my_number_layer {
-            display-name = "EXTRA 1";
+            display-name = "Number";
             bindings = <
 &trans  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         my_symbol_layer {
-            display-name = "EXTRA 2";
+            display-name = "Symbol";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &kp LPAR  &kp RPAR  &kp MINUS  &kp ASTERISK  &kp PLUS  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UNDERSCORE  &kp EQUAL  &kp GRAVE  &kp PIPE  &trans  &trans  &kp TILDE  &kp PIPE  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &trans  &trans  &trans  &trans  &kp DELETE  &trans  &trans
             >;
         };
 
         service {
-            display-name = "NUMBER";
+            display-name = "Service";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5    |  6  |  7  |  8  |  9  |  0  | BSPC |
